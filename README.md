@@ -80,7 +80,7 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 
 ## 🗄️ Supabase Setup (Free Tier)
 
-1. Create a Supabase project on the Free plan.
+1. Create a Supabase project on the Free-plan.
 2. In the **SQL Editor**, run [`supabase/migrations/20261024000000_projects.sql`](supabase/migrations/20261024000000_projects.sql). It creates the projects table and owner-scoped Row Level Security (RLS) policies.
 3. For GitHub login, enable GitHub in **Authentication → Providers** and configure the OAuth callback with Supabase.
 
